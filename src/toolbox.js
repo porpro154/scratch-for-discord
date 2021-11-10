@@ -535,6 +535,8 @@ export default (Blockly) => {
             <label text="%{BKY_ROLE_ASSIGNMENT}"></label>
             <block type="s4d_add_role"></block>
             <block type="s4d_remove_role"></block>
+            <block type="s4d_get_emoji"></block>
+
         </category>
         <category name="{{ TOOLBOX_MEMBERS }}" colour="#187795">
             <label text="%{BKY_FIND_MEMBER}"></label>
