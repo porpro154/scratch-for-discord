@@ -240,4 +240,5 @@
   "TEXT": "text",
   "VOICE": "voice",
   "CATEGORY": "category"
+  "EMOJI":"emoji"
 }
