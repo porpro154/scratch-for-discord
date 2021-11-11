@@ -26,7 +26,7 @@ Blockly.Blocks[blockName] = {
 
 Blockly.JavaScript[blockName] = function(block){
     const id = Blockly.JavaScript.valueToCode(block, "ID", Blockly.JavaScript.ORDER_ATOMIC);
-    return [ `s4d.client.emojis.cache.get(${id})`, Blockly.JavaScript.ORDER_NONE ];
+    return [ `s4d.client.emojis.cache.get(${ID})`, Blockly.JavaScript.ORDER_NONE ];
 };
 
 registerRestrictions(blockName, [
